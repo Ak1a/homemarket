@@ -1,0 +1,66 @@
+h1, h2 {
+    color: black;
+}
+
+body {
+    background-color: #ccffff;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.header {
+    font-size: 35px;
+}
+
+.border {
+    background-color: #ffffcc;
+    border: solid #3399FF;
+    border-radius: 20px;
+    /*padding-bottom: 20px;*/
+    /*margin: 50px 50px;*/
+}
+
+.val {
+    border: 1px solid #ffffcc;
+    border-radius: 5px;
+    height: 24px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.left {
+    float: left;
+}
+
+.btn, .link {
+    background-color: #3399FF;
+    border-color: #3399FF;
+    border-radius: 5px;
+    color: #ffffcc;
+    font-size: 16px;
+}
+
+.link {
+    margin: 15px 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: -webkit-inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-element {
+
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 30px;
+}
